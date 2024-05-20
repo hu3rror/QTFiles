@@ -18,7 +18,8 @@ on:
         description: Version of International Components for Unicode data inside iTunes installer
         required: true
         default: 62
-        
+permissions:
+  contents: write
 jobs:
   download:
     runs-on: ubuntu-latest
